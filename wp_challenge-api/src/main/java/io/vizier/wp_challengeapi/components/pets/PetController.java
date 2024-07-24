@@ -1,4 +1,4 @@
-package io.vizier.wp_challengeapi;
+package io.vizier.wp_challengeapi.components.pets;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package io.vizier.wp_challengeapi;
+package io.vizier.wp_challengeapi.components.pets;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
