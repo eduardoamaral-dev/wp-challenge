@@ -65,9 +65,7 @@ public class PetServiceTest {
         // given
         var pet = new Pet(1L, "", "Meg", "Description1", "Cat", null, null, true);
         // when
-//        when(repositoryMock.save(pet));
         petService.addPet(pet);
-
         // then
         verify(repositoryMock, times(1)).save(pet);
     }
